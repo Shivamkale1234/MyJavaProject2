@@ -14,7 +14,6 @@ public class If_Else_EvenOdd
 	}
 	
 }
-	
 public static void main (String [] args)
 {
 	If_Else_EvenOdd test = new If_Else_EvenOdd();
