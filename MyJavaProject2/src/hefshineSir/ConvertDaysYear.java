@@ -1,6 +1,6 @@
 package hefshineSir;
 
-public class DaysCount
+public class ConvertDaysYear
 {
 	public static void main(String [] args)
 	{
