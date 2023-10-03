@@ -1,6 +1,6 @@
 package starPrograms;
 
-public class StarProgramA2_IncrementBy1
+public class StarProgramA2_HalfTriangle
 {
 	public static void main(String[] args) 
 	{

@@ -4,7 +4,7 @@ public class PrimeNumber
 {
     public static void main(String[] args) 
     {
-        int num=123;
+        int num=8;
         
         int count=0;
 

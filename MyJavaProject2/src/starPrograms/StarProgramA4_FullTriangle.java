@@ -1,6 +1,6 @@
 package starPrograms;
 
-public class StarProgramA4_Incr_DecrBy1
+public class StarProgramA4_FullTriangle
 {
 	public static void main(String[] args) 
 	{
