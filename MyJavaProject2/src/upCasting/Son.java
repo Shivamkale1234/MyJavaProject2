@@ -9,19 +9,11 @@ public class Son extends Father {
 
 	public void car()                       //override
 	{
-		System.out.println("Car: kia");
+		System.out.println("Car: Nano");
 	}
 
 	public void money()                     //override
 	{
 		System.out.println("money: 2L");
 	}
-
-
-//	public void home() 
-//	{
-//		System.out.println("home: 2BHK");
-//	}
-
-
 }

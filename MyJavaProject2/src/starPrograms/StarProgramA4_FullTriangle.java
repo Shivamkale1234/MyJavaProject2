@@ -4,27 +4,27 @@ public class StarProgramA4_FullTriangle
 {
 	public static void main(String[] args) 
 	{
-		
-		int end=1;
-		for(int i=1; i<=5; i++)
+		int start=1;
+		for (int i = 1; i <= 5; i++) 
 		{
-			for(int j=1; j<=end; j++)
+			for (int j = 1; j <= start; j++) 
 			{
 				System.out.print("*");
 			}
 			System.out.println();
-			end++;
+			start++;
+			
 		}
 		
-		int end1=4;
-		for(int i=1; i<=4; i++)
+		int end=4;
+		for (int i = 1; i <= 4; i++) 
 		{
-			for(int j=1; j<=end1; j++)
+			for (int j = 1; j <= end; j++) 
 			{
 				System.out.print("*");
 			}
 			System.out.println();
-			end1--;
+			end--;
 		}
 		
 	}

@@ -10,7 +10,7 @@ public class TestUpCasting {
 		s.car();
 		s.money();
 		s.home();
-		//s.bike();
+	    //s.bike();
 
 	}
 

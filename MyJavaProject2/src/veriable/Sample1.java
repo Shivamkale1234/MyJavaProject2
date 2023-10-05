@@ -5,39 +5,30 @@ public class Sample1 {
 	// Variables are nothing but piece of memory use to store information.
     // one variable can store 1 information at a time.
 	// Variables also used in information reusability.
-	// To utilise variables in java programming language we need to follow below steps:
+	// To utilize variables in java programming language we need to follow below steps:
 	//   1. Variable declaration (Allocating/Reserving memory)
 	//   2. Variable Initialization (Assigning or Inserting value)
 	//   3. Variable Usage
 	
 	public static void main(String[] args) {
 		
-		//step1 : variable declaration
-				// naming purpose
-	         	String nname;
-	        	nname = "qwertyuiopsdfghjklzxcvbnmrtyu";
-	        	System.out.println(nname);
-	        	
-				String name;           // datatypes veriable;
-				// num+non-decimal
+		        //step1 : variable declaration
+		
+				String name2;           
 				byte num;
-				short rollnum1;
+				short rollnum;
 				int monum;
 				long unlimitednum;
-				// only 1 charectors
 				char grade;
-				// condition T or F
 				boolean TF;
-				
-				//num+Decimal
 				float per;
 				double per1;
 				
-			//step2 : variable initilization
+			    //step2 : variable initialization
 				
-				name =  "shivam kale";      //variable = variable information
+				name2 =  "shivam kale";      
 				num  =  125;
-				rollnum1 =  12512;
+				rollnum =  12512;
 				monum = 1234567890;
 				unlimitednum = 1234567890;
 				grade = 'A';
@@ -45,12 +36,12 @@ public class Sample1 {
 				per = 60.20f;
 				per1 = 60.75;
 				
-			//step3 : variable usage
+			    //step3 : variable usage
 				
-				System.out.println("student name : "+name);  // variable usage
+				System.out.println("student name : "+name2);
 				System.out.println("student num : "+num);
 				System.out.println("student num : "+num);
-				System.out.println("student rollnum : "+rollnum1);
+				System.out.println("student rollnum : "+rollnum);
 				System.out.println("student mobile no : "+monum);
 				System.out.println(unlimitednum); 
 				System.out.println("student grade : "+grade+"+");
@@ -58,7 +49,10 @@ public class Sample1 {
 				System.out.println("student percentage : "+per);
 				System.out.println("student percentage : "+per1+"%");
 		
-	
+	            //Declaration,Initialization and Usage.
+				String name1;
+	        	name1 = "qwertyuiopsdfghjklzxcvbnmrtyu";
+	        	System.out.println(name1);
 	}
 
 }
